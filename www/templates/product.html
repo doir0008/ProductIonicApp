@@ -1,0 +1,11 @@
+<ion-view view-title="Book Details">
+  <ion-content class="padding">
+    <h3>Title: {{book.title}}</h3>
+    <p align="right">Price: {{book.price | currency}}</p>
+<!--    <p>Rating: {{book.rating}}</p>-->
+<!--    <ionic-ratings ratingsobj='ratingsObject'></ionic-ratings>-->
+    <ionic-ratings ratingsobj='ratingsObject' index='0' class="padding-bottom"></ionic-ratings>
+    <p>Short Description: {{book.short_description}}</p>
+    <p>Long Description: {{book.long_description}}</p>
+  </ion-content>
+</ion-view>

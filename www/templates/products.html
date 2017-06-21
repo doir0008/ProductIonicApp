@@ -1,0 +1,11 @@
+<ion-view view-title="Books">
+  <ion-content>
+    <ion-list>
+     <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="b in item.books" type="item-text-wrap" ui-sref="categories.{{b.cat_id}}-product({bookID: b._id, id: b.cat_id})">
+        <img ng-src="{{b.image}}">
+        <h2>{{b.title}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

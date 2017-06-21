@@ -1,0 +1,31 @@
+<ion-tabs class="tabs-icon-top tabs-color-active-positive">
+
+<!-- testing.. would love to know if possible, can't get it to work -->
+<!--
+    <ion-tab title="{{d.title}}" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" ng-repeat="d in data.categories" ui-sref="categories.{{d._id}}({id: d._id})">
+        <ion-nav-view name="{{d._id}}"></ion-nav-view>
+    </ion-tab>
+-->
+
+
+    <ion-tab title="Fiction" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" ui-sref="categories.1">
+        <ion-nav-view name="1"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="Non-Fiction" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" ui-sref="categories.2">
+        <ion-nav-view name="2"></ion-nav-view>
+    </ion-tab>
+
+    <ion-tab title="History" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" ui-sref="categories.3">
+        <ion-nav-view name="3"></ion-nav-view>
+    </ion-tab>
+  
+    <ion-tab title="Science" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" ui-sref="categories.4">
+        <ion-nav-view name="4"></ion-nav-view>
+    </ion-tab>
+  
+  
+  
+
+  
+</ion-tabs>
